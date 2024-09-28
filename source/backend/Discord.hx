@@ -1,5 +1,6 @@
 package backend;
 
+#if DISCORD_ALLOWED
 import Sys.sleep;
 import lime.app.Application;
 import hxdiscord_rpc.Discord;
@@ -143,3 +144,4 @@ class DiscordClient
 	}
 	#end
 }
+#end
