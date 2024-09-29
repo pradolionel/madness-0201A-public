@@ -23,6 +23,7 @@ import lime.graphics.Image;
 import openfl.events.UncaughtErrorEvent;
 import haxe.CallStack;
 import haxe.io.Path;
+import states.CopyState;
 #end
 
 #if linux
