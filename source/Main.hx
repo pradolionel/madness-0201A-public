@@ -13,6 +13,7 @@ import openfl.events.Event;
 import openfl.display.StageScaleMode;
 import lime.app.Application;
 import states.TitleState;
+import states.CopyState;
 
 #if linux
 import lime.graphics.Image;
@@ -23,7 +24,6 @@ import lime.graphics.Image;
 import openfl.events.UncaughtErrorEvent;
 import haxe.CallStack;
 import haxe.io.Path;
-import states.CopyState;
 #end
 
 #if linux
