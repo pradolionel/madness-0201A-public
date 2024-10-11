@@ -2,8 +2,8 @@
   "dependencies": [
     {
       "name": "lime",
-      "type": "git",
-      "url": "https://github.com/mcagabe19-stuff/lime"
+      "type": "haxelib",
+      "version": null
     },
     {
       "name": "openfl",
@@ -76,7 +76,7 @@
       "type": "git",
       "dir": null,
       "ref": "main",
-      "url": "https://github.com/MAJigsaw77/extension-androidtools"
+      "url": "https://github.com/pradolionel/extension-androidtools"
     },
     {
       "name": "hxcpp",
