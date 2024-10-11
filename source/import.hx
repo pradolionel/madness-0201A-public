@@ -47,15 +47,15 @@ import states.PlayState;
 import states.LoadingState;
 
 #if android
-import android.content.Context as AndroidContext;
-import android.widget.Toast as AndroidToast;
-import android.os.Environment as AndroidEnvironment;
-import android.Permissions as AndroidPermissions;
-import android.Settings as AndroidSettings;
-import android.Tools as AndroidTools;
-import android.os.Build.VERSION as AndroidVersion;
-import android.os.Build.VERSION_CODES as AndroidVersionCode;
-import android.os.BatteryManager as AndroidBatteryManager;
+import dependencies.android.content.Context as AndroidContext;
+import dependencies.android.widget.Toast as AndroidToast;
+import dependencies.android.os.Environment as AndroidEnvironment;
+import dependencies.android.Permissions as AndroidPermissions;
+import dependencies.android.Settings as AndroidSettings;
+import dependencies.android.Tools as AndroidTools;
+import dependencies.android.os.Build.VERSION as AndroidVersion;
+import dependencies.android.os.Build.VERSION_CODES as AndroidVersionCode;
+import dependencies.android.os.BatteryManager as AndroidBatteryManager;
 #end
 
 #if flxanimate
